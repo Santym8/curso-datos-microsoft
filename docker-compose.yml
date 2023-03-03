@@ -1,0 +1,7 @@
+services:
+  cursodatosmicrosoft:
+    build: .
+    volumes:
+      - .:/code
+    stdin_open: true # docker run -i
+   
